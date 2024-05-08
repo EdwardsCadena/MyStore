@@ -3,20 +3,12 @@
   "WorkspaceRootPath": "F:\\Store\\Asp.Net\\Store\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{9BCD12A8-1D09-40E0-8934-0A726F83AE0A}|Store\\Store.csproj|f:\\store\\asp.net\\store\\store\\pages\\userspage.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9BCD12A8-1D09-40E0-8934-0A726F83AE0A}|Store\\Store.csproj|solutionrelative:store\\pages\\userspage.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{9BCD12A8-1D09-40E0-8934-0A726F83AE0A}|Store\\Store.csproj|f:\\store\\asp.net\\store\\store\\pages\\oderspage.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{9BCD12A8-1D09-40E0-8934-0A726F83AE0A}|Store\\Store.csproj|solutionrelative:store\\pages\\oderspage.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9BCD12A8-1D09-40E0-8934-0A726F83AE0A}|Store\\Store.csproj|f:\\store\\asp.net\\store\\store\\pages\\userspage.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
-      "RelativeMoniker": "D:0:0:{9BCD12A8-1D09-40E0-8934-0A726F83AE0A}|Store\\Store.csproj|solutionrelative:store\\pages\\userspage.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9BCD12A8-1D09-40E0-8934-0A726F83AE0A}|Store\\Store.csproj|f:\\store\\asp.net\\store\\store\\datos\\useradmin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9BCD12A8-1D09-40E0-8934-0A726F83AE0A}|Store\\Store.csproj|solutionrelative:store\\datos\\useradmin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9BCD12A8-1D09-40E0-8934-0A726F83AE0A}|Store\\Store.csproj|f:\\store\\asp.net\\store\\store\\db\\users.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9BCD12A8-1D09-40E0-8934-0A726F83AE0A}|Store\\Store.csproj|solutionrelative:store\\db\\users.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{9BCD12A8-1D09-40E0-8934-0A726F83AE0A}|Store\\Store.csproj|f:\\store\\asp.net\\store\\store\\pages\\oderspage.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9BCD12A8-1D09-40E0-8934-0A726F83AE0A}|Store\\Store.csproj|solutionrelative:store\\pages\\oderspage.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,58 +18,32 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Users.cs",
-              "DocumentMoniker": "F:\\Store\\Asp.Net\\Store\\Store\\Db\\Users.cs",
-              "RelativeDocumentMoniker": "Store\\Db\\Users.cs",
-              "ToolTip": "F:\\Store\\Asp.Net\\Store\\Store\\Db\\Users.cs",
-              "RelativeToolTip": "Store\\Db\\Users.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABoAAAA2AAAA",
+              "DocumentIndex": 1,
+              "Title": "OdersPage.aspx.cs",
+              "DocumentMoniker": "F:\\Store\\Asp.Net\\Store\\Store\\Pages\\OdersPage.aspx.cs",
+              "RelativeDocumentMoniker": "Store\\Pages\\OdersPage.aspx.cs",
+              "ToolTip": "F:\\Store\\Asp.Net\\Store\\Store\\Pages\\OdersPage.aspx.cs",
+              "RelativeToolTip": "Store\\Pages\\OdersPage.aspx.cs",
+              "ViewState": "AQIAABwAAAAAAAAAAAAIwCYAAAA7AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-07T17:57:55.464Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "UserAdmin.cs",
-              "DocumentMoniker": "F:\\Store\\Asp.Net\\Store\\Store\\Datos\\UserAdmin.cs",
-              "RelativeDocumentMoniker": "Store\\Datos\\UserAdmin.cs",
-              "ToolTip": "F:\\Store\\Asp.Net\\Store\\Store\\Datos\\UserAdmin.cs",
-              "RelativeToolTip": "Store\\Datos\\UserAdmin.cs",
-              "ViewState": "AQIAABEAAAAAAAAAAAAAAC0AAAAIAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-07T17:56:15.923Z",
+              "WhenOpened": "2024-05-08T04:07:51.298Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "UsersPage.aspx.cs",
-              "DocumentMoniker": "F:\\Store\\Asp.Net\\Store\\Store\\Pages\\UsersPage.aspx.cs",
-              "RelativeDocumentMoniker": "Store\\Pages\\UsersPage.aspx.cs",
-              "ToolTip": "F:\\Store\\Asp.Net\\Store\\Store\\Pages\\UsersPage.aspx.cs",
-              "RelativeToolTip": "Store\\Pages\\UsersPage.aspx.cs",
-              "ViewState": "AQIAAEAAAAAAAAAAAAAAAE0AAAAkAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-07T17:54:14.836Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "UsersPage.aspx",
-              "DocumentMoniker": "F:\\Store\\Asp.Net\\Store\\Store\\Pages\\UsersPage.aspx",
-              "RelativeDocumentMoniker": "Store\\Pages\\UsersPage.aspx",
-              "ToolTip": "F:\\Store\\Asp.Net\\Store\\Store\\Pages\\UsersPage.aspx",
-              "RelativeToolTip": "Store\\Pages\\UsersPage.aspx",
+              "Title": "OdersPage.aspx",
+              "DocumentMoniker": "F:\\Store\\Asp.Net\\Store\\Store\\Pages\\OdersPage.aspx",
+              "RelativeDocumentMoniker": "Store\\Pages\\OdersPage.aspx",
+              "ToolTip": "F:\\Store\\Asp.Net\\Store\\Store\\Pages\\OdersPage.aspx",
+              "RelativeToolTip": "Store\\Pages\\OdersPage.aspx",
               "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
-              "WhenOpened": "2024-05-07T17:54:10.663Z",
+              "WhenOpened": "2024-05-08T04:04:40.18Z",
               "EditorCaption": ""
             }
           ]

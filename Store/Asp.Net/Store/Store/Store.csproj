@@ -129,19 +129,21 @@
     <Content Include="Content\bootstrap.rtl.css" />
     <Content Include="Content\bootstrap.rtl.min.css" />
     <Content Include="Content\Site.css" />
-    <Content Include="Db\MyStore.Context.tt">
+    <Content Include="Db\ModelStore.Context.tt">
       <Generator>TextTemplatingFileGenerator</Generator>
-      <DependentUpon>MyStore.edmx</DependentUpon>
-      <LastGenOutput>MyStore.Context.cs</LastGenOutput>
+      <DependentUpon>ModelStore.edmx</DependentUpon>
+      <LastGenOutput>ModelStore.Context.cs</LastGenOutput>
     </Content>
-    <Content Include="Db\MyStore.tt">
+    <Content Include="Db\ModelStore.tt">
       <Generator>TextTemplatingFileGenerator</Generator>
-      <DependentUpon>MyStore.edmx</DependentUpon>
-      <LastGenOutput>MyStore.cs</LastGenOutput>
+      <DependentUpon>ModelStore.edmx</DependentUpon>
+      <LastGenOutput>ModelStore.cs</LastGenOutput>
     </Content>
     <Content Include="Default.aspx" />
     <Content Include="favicon.ico" />
     <Content Include="Global.asax" />
+    <Content Include="Pages\OdersPage.aspx" />
+    <Content Include="Pages\ProductsPage.aspx" />
     <Content Include="Pages\UsersPage.aspx" />
     <Content Include="Scripts\bootstrap.bundle.js" />
     <Content Include="Scripts\bootstrap.bundle.min.js" />
@@ -171,12 +173,12 @@
     <Content Include="Content\bootstrap-grid.rtl.css.map" />
     <Content Include="Content\bootstrap-grid.min.css.map" />
     <Content Include="Content\bootstrap-grid.css.map" />
-    <EntityDeploy Include="Db\MyStore.edmx">
+    <EntityDeploy Include="Db\ModelStore.edmx">
       <Generator>EntityModelCodeGenerator</Generator>
-      <LastGenOutput>MyStore.Designer.cs</LastGenOutput>
+      <LastGenOutput>ModelStore.Designer.cs</LastGenOutput>
     </EntityDeploy>
-    <Content Include="Db\MyStore.edmx.diagram">
-      <DependentUpon>MyStore.edmx</DependentUpon>
+    <Content Include="Db\ModelStore.edmx.diagram">
+      <DependentUpon>ModelStore.edmx</DependentUpon>
     </Content>
     <None Include="Scripts\jquery-3.4.1.intellisense.js" />
     <Content Include="Scripts\jquery-3.4.1.js" />
@@ -228,30 +230,32 @@
     <Compile Include="Contact.aspx.designer.cs">
       <DependentUpon>Contact.aspx</DependentUpon>
     </Compile>
+    <Compile Include="Datos\OrderAdmin.cs" />
+    <Compile Include="Datos\ProductsAdmin.cs" />
     <Compile Include="Datos\UserAdmin.cs" />
-    <Compile Include="Db\MyStore.Context.cs">
+    <Compile Include="Db\ModelStore.Context.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
-      <DependentUpon>MyStore.Context.tt</DependentUpon>
+      <DependentUpon>ModelStore.Context.tt</DependentUpon>
     </Compile>
-    <Compile Include="Db\MyStore.cs">
+    <Compile Include="Db\ModelStore.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
-      <DependentUpon>MyStore.tt</DependentUpon>
+      <DependentUpon>ModelStore.tt</DependentUpon>
     </Compile>
-    <Compile Include="Db\MyStore.Designer.cs">
+    <Compile Include="Db\ModelStore.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
-      <DependentUpon>MyStore.edmx</DependentUpon>
+      <DependentUpon>ModelStore.edmx</DependentUpon>
     </Compile>
     <Compile Include="Db\Orders.cs">
-      <DependentUpon>MyStore.tt</DependentUpon>
+      <DependentUpon>ModelStore.tt</DependentUpon>
     </Compile>
     <Compile Include="Db\Products.cs">
-      <DependentUpon>MyStore.tt</DependentUpon>
+      <DependentUpon>ModelStore.tt</DependentUpon>
     </Compile>
     <Compile Include="Db\Users.cs">
-      <DependentUpon>MyStore.tt</DependentUpon>
+      <DependentUpon>ModelStore.tt</DependentUpon>
     </Compile>
     <Compile Include="Default.aspx.cs">
       <DependentUpon>Default.aspx</DependentUpon>
@@ -262,6 +266,20 @@
     </Compile>
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\OdersPage.aspx.cs">
+      <DependentUpon>OdersPage.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pages\OdersPage.aspx.designer.cs">
+      <DependentUpon>OdersPage.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\ProductsPage.aspx.cs">
+      <DependentUpon>ProductsPage.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pages\ProductsPage.aspx.designer.cs">
+      <DependentUpon>ProductsPage.aspx</DependentUpon>
     </Compile>
     <Compile Include="Pages\UsersPage.aspx.cs">
       <DependentUpon>UsersPage.aspx</DependentUpon>

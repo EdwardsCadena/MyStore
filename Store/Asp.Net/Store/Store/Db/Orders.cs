@@ -19,8 +19,8 @@ namespace Store.Db
         public Nullable<int> ProductID { get; set; }
         public Nullable<int> Quantity { get; set; }
         public Nullable<System.DateTime> OrderDate { get; set; }
-        public Nullable<System.DateTime> CreationDate { get; set; }
-        public Nullable<System.DateTime> UpdateDate { get; set; }
+        public Nullable<System.DateTime> createdAt { get; set; }
+        public Nullable<System.DateTime> updatedAt { get; set; }
     
         public virtual Products Products { get; set; }
         public virtual Users Users { get; set; }

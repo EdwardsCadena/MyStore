@@ -23,8 +23,8 @@ namespace Store.Db
         public int ProductID { get; set; }
         public string Name { get; set; }
         public Nullable<decimal> Price { get; set; }
-        public Nullable<System.DateTime> CreationDate { get; set; }
-        public Nullable<System.DateTime> UpdateDate { get; set; }
+        public Nullable<System.DateTime> createdAt { get; set; }
+        public Nullable<System.DateTime> updatedAt { get; set; }
     
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
         public virtual ICollection<Orders> Orders { get; set; }

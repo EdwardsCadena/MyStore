@@ -35,7 +35,7 @@ namespace Store.Pages
             {
                 Name = TxtName.Text,
                 Email = Txtemail.Text,
-                CreationDate = DateTime.Now // Establecer la fecha y hora actual
+                createdAt = DateTime.Now // Establecer la fecha y hora actual
             };
             admin.Guardar(modelo);
             Consultar();
@@ -59,7 +59,7 @@ namespace Store.Pages
                     usuarioAEditar.Email = nuevoEmail;
                 }
 
-                usuarioAEditar.UpdateDate = DateTime.Now;
+                usuarioAEditar.updatedAt = DateTime.Now;
                 admin.ActualizarUsuario(usuarioAEditar);
             }
         }

@@ -21,7 +21,7 @@ namespace Store.Datos
     {
         public void Guardar(Users modelo)
         {
-            using (Mystore contexto = new Mystore())
+            using (Mystores contexto = new Mystores())
             {
                 contexto.Users.Add(modelo);
                 contexto.SaveChanges();
@@ -30,7 +30,7 @@ namespace Store.Datos
 
         public List<Users> ConsultarUsers()
         {
-            using (Mystore contexto = new Mystore())
+            using (Mystores contexto = new Mystores())
             {
                 return contexto.Users.AsNoTracking().ToList();
             }
@@ -39,7 +39,7 @@ namespace Store.Datos
 
         public Users ObtenerUsuarioPorId(int userId)
         {
-            using (Mystore contexto = new Mystore())
+            using (Mystores contexto = new Mystores())
             {
                 return contexto.Users.FirstOrDefault(u => u.UserId == userId);
             }
@@ -47,7 +47,7 @@ namespace Store.Datos
 
         public void ActualizarUsuario(Users usuario)
         {
-            using (Mystore contexto = new Mystore())
+            using (Mystores contexto = new Mystores())
             {
                 contexto.Entry(usuario).State = EntityState.Modified;
                 contexto.SaveChanges();
@@ -56,7 +56,7 @@ namespace Store.Datos
 
         public void EliminarUsuario(Users usuario)
         {
-            using (Mystore contexto = new Mystore())
+            using (Mystores contexto = new Mystores())
             {
                 contexto.Entry(usuario).State = EntityState.Deleted;
                 contexto.SaveChanges();

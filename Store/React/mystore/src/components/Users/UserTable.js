@@ -15,7 +15,6 @@ import Snackbar from '@mui/material/Snackbar';
 import { Box } from '@mui/system';
 
 const UserTable = ({ users, fetchUsers }) => {
-  const [editedUser, setEditedUser] = useState(null);
   const [showAlert, setShowAlert] = useState(false);
   const [deletedUserName, setDeletedUserName] = useState('');
 
@@ -30,23 +29,8 @@ const UserTable = ({ users, fetchUsers }) => {
     }
   };
 
-  const handleEditClick = (user) => {
-    setEditedUser(user);
-  };
-
   const handleCloseAlert = () => {
     setShowAlert(false);
-  };
-
-  const handleUpdateUser = async () => {
-    try {
-      await axios.patch(`http://localhost:9000/api/user/${editedUser.userid}`, editedUser);
-      fetchUsers();
-      setShowAlert(true);
-      setEditedUser(null);
-    } catch (error) {
-      console.error('Error updating user:', error);
-    }
   };
 
   return (

@@ -48,8 +48,8 @@
                 <div class="collapse navbar-collapse d-sm-inline-flex justify-content-between">
                     <ul class="navbar-nav flex-grow-1">
                         <li class="nav-item"><a class="nav-link" runat="server" href="~/Pages/UsersPage">Users</a></li>
-                        <li class="nav-item"><a class="nav-link" runat="server" href="~/About">Products</a></li>
-                        <li class="nav-item"><a class="nav-link" runat="server" href="~/Contact">Orders</a></li>
+                        <li class="nav-item"><a class="nav-link" runat="server" href="~/Pages/ProductsPage">Products</a></li>
+                        <li class="nav-item"><a class="nav-link" runat="server" href="~/Pages/OdersPage">Orders</a></li>
                     </ul>
                 </div>
             </div>

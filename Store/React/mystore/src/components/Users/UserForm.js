@@ -78,5 +78,3 @@ export default UserForm;
 
 
 
-6) Implementar los puntos 3 y 4 pero en react native. Hacer uso de las herramientas que considere necesarias para presentar la pantalla de móvil y demostrar el funcionamiento, consumiendo los endpoints de la api en node.
-7) Implementar un proyecto básico en ASP.NET (c#), preferiblemente webforms (no mvc). De manera directa debe conectarse a sql server y/o postgres para consulta, inserción y actualización de datos. En lugar de utilizar la api en node, utilizar ADO.NET  
